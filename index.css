@@ -1,15 +1,22 @@
-/* Generieke stijlen, waarschijnlijk hoeven jullie deze niet aan te passen */
+/* Generieke stijlen voor jullie styleguide
+   Waarschijnlijk hoef je hier niet zoveel voor aan te passen, maar dat mag natuurlijk wel */
+
+/* We gebruiken hier Cascade layers, wat mogelijke problemen met Specificiteit voorkomt
+   https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
+   https://css-tricks.com/css-cascade-layers/ */
 
 @layer generic {
 
   html, body {
     scroll-behavior: smooth;
   }
+
   body {
     max-width: 40em;
     margin: auto;
     background: #fff;
   }
+
   nav:not([class]),
   h1:not([class]),
   h2:not([class]),
@@ -18,9 +25,11 @@
     font-family: sans-serif;
     line-height: 1.5;
   }
+
   p:not([class]) > code:not([class]) {
     display: block;
   }
+
   nav:not([class]) > a {
     padding: .5em;
     border: 1px solid;
@@ -30,6 +39,7 @@
       text-decoration: underline;
     }
   }
+
   figure:not([class]) {
     display: grid;
     grid-template-columns: 6rem 1fr;
