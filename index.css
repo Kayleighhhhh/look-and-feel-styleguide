@@ -30,6 +30,10 @@
     display: block;
   }
 
+  fieldset:not([class]) {
+    margin-block: 1em;
+  }
+
   nav:not([class]) > a {
     padding: .5em;
     border: 1px solid;
