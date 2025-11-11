@@ -8,8 +8,21 @@
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
-    .color-example {
-        background-color: #bada55;
+    .primary-detail {
+        background-color: #002646;
+    }
+
+    .secondary-detail {
+        background-color: #BF9A5D;
+    }
+
+    .third-detail {
+        background-color: #8FB8C9;
+    }
+
+    .main-background {
+        background-color: #FFFFFF;
+        border: 1px solid;
     }
 
     /* Typografie */
