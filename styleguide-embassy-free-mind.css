@@ -52,42 +52,53 @@
 
     .display-large {
         font-family: var(--ff-night-mango);
+        font-size: 120px;
     }
 
     .display-medium {
         font-family: var(--ff-night-mango);
+        font-size: 85px;
     }
 
     .header-large {
         font-family: var(--ff-inter);
+        font-size: 50px;
     }
 
     .header-medium {
         font-family: var(--ff-inter);
+        font-size: 38px;
     }
 
     .header-small {
         font-family: var(--ff-inter);
+        font-size: 24px;
     }
 
     .body-medium {
         font-family: var(--ff-inter);
+        font-size: 20px;
     }
 
     .body-small {
         font-family: var(--ff-inter);
+        font-size: 18px;
     }
 
     .label-medium {
         font-family: var(--ff-inter);
+        font-size: 18px;
     }
 
     .label-small {
         font-family: var(--ff-inter);
+        font-size: 16px;
     }
 
     .bold {
         font-family: var(--ff-night-mango);
+        font-size: 20px;
+        font-weight: bold;
     }
 
     /* Formulier elementen */
