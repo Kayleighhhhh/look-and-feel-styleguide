@@ -4,24 +4,33 @@
 
 @layer styleguide {
 
+    :root{
+        /* colours */
+        --primary-detail: #002646;
+        --secondary-detail: #BF9A5D;
+        --third-detail: #8FB8C9;
+        --main-background: #FFFFFF;
+
+    }
+
     /* Schrijf hier de verschillende stijlen, die
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
     .primary-detail {
-        background-color: #002646;
+        background-color: var(--primary-detail);
     }
 
     .secondary-detail {
-        background-color: #BF9A5D;
+        background-color: var(--secondary-detail);
     }
 
     .third-detail {
-        background-color: #8FB8C9;
+        background-color: var(--third-detail);
     }
 
     .main-background {
-        background-color: #FFFFFF;
+        background-color: var(--main-background);
         border: 1px solid;
     }
 
