@@ -22,6 +22,9 @@
         --third-detail: #8FB8C9;
         --main-background: #FFFFFF;
 
+        --ff-inter: "Inter";
+        --ff-night-mango: "Night Mango";
+
     }
 
     /* Schrijf hier de verschillende stijlen, die
@@ -46,8 +49,46 @@
     }
 
     /* Typografie */
-    
 
+    .display-large {
+        font-family: var(--ff-night-mango);
+    }
+
+    .display-medium {
+        font-family: var(--ff-night-mango);
+    }
+
+    .header-large {
+        font-family: var(--ff-inter);
+    }
+
+    .header-medium {
+        font-family: var(--ff-inter);
+    }
+
+    .header-small {
+        font-family: var(--ff-inter);
+    }
+
+    .body-medium {
+        font-family: var(--ff-inter);
+    }
+
+    .body-small {
+        font-family: var(--ff-inter);
+    }
+
+    .label-medium {
+        font-family: var(--ff-inter);
+    }
+
+    .label-small {
+        font-family: var(--ff-inter);
+    }
+
+    .bold {
+        font-family: var(--ff-night-mango);
+    }
 
     /* Formulier elementen */
 
