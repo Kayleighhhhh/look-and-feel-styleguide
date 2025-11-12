@@ -2,6 +2,17 @@
    https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
    https://css-tricks.com/css-cascade-layers/ */
 
+
+@font-face {
+  font-family: Night Mango;
+  src: url('Night\ Mango.ttf');
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('Inter-VariableFont_opsz\,wght.ttf');
+}
+
 @layer styleguide {
 
     :root{
@@ -35,6 +46,7 @@
     }
 
     /* Typografie */
+    
 
 
     /* Formulier elementen */
