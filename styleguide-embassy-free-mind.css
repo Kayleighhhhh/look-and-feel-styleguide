@@ -69,13 +69,13 @@
     .header-medium {
         font-family: var(--ff-inter);
         font-size: 38px;
-        font-weight: normal;
+        font-weight: 400;
     }
 
     .header-small {
         font-family: var(--ff-inter);
         font-size: 24px;
-        font-weight: normal;
+        font-weight: 400;
     }
 
     .body-medium {
