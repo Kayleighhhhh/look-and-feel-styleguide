@@ -17,10 +17,10 @@
 
     :root{
         /* colours */
-        --primary-detail:hsl(207, 100%, 14%);
-        --secondary-detail:hsl(37, 43%, 56%);
-        --third-detail:hsl(198, 35%, 67%);
-        --main-background:hsl(0, 0%, 100%);
+        --primary-detail-color:hsl(207, 100%, 14%);
+        --secondary-detail-color:hsl(37, 43%, 56%);
+        --third-detail-color:hsl(198, 35%, 67%);
+        --main-background-color:hsl(0, 0%, 100%);
         --text-color-lightbg:hsl(208, 100%, 10%);
         --text-color-darkbg:hsl(0, 0%, 100%);
 
@@ -34,19 +34,19 @@
 
     /* Kleuren */
     .primary-detail {
-        background-color: var(--primary-detail);
+        background-color: var(--primary-detail-color);
     }
 
     .secondary-detail {
-        background-color: var(--secondary-detail);
+        background-color: var(--secondary-detail-color);
     }
 
     .third-detail {
-        background-color: var(--third-detail);
+        background-color: var(--third-detail-color);
     }
 
     .main-background {
-        background-color: var(--main-background);
+        background-color: var(--main-background-color);
         border: 1px solid;
     }
 
