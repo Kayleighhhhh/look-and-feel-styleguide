@@ -26,8 +26,8 @@
 
         /* fonts */
 
-        --ff-inter: "Inter";
-        --ff-amoria: "Amoria";
+        --ff-main: "Inter";
+        --ff-decorative: "Amoria";
 
         /* font size */
 
@@ -66,55 +66,55 @@
     /* Typografie */
 
     .display-large {
-        font-family: var(--ff-amoria);
+        font-family: var(--ff-decorative);
         font-size: var(--display-large);
     }
 
     .display-medium {
-        font-family: var(--ff-amoria);
+        font-family: var(--ff-decorative);
         font-size: var(--display-medium);
     }
 
     .header-large {
-        font-family: var(--ff-inter);
+        font-family: var(--ff-main);
         font-size: var(--heading-large);
         
     }
 
     .header-medium {
-        font-family: var(--ff-inter);
+        font-family: var(--ff-main);
         font-size: 38px;
         font-weight: var(--heading-medium);
     }
 
     .header-small {
-        font-family: var(--ff-inter);
+        font-family: var(--ff-main);
         font-size: var(--heading-small);
         font-weight: 400;
     }
 
     .body-medium {
-        font-family: var(--ff-inter);
+        font-family: var(--ff-main);
         font-size: var(--body-medium);
     }
 
     .body-small {
-        font-family: var(--ff-inter);
+        font-family: var(--ff-main);
         font-size: var(--body-small);
     }
 
     .label-medium {
-        font-family: var(--ff-inter);
+        font-family: var(--ff-main);
         font-size: var(--body-medium);
     }
 
     .label-small {
-        font-family: var(--ff-inter);
+        font-family: var(--ff-main);
         font-size: var(--body-small);
     }
 
     .quote {
-        font-family: var(--ff-amoria);
+        font-family: var(--ff-decorative);
         font-size: var(--body-medium);
         
     }
