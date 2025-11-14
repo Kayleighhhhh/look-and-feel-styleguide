@@ -24,8 +24,21 @@
         --text-color-lightbg:hsl(208, 100, 10);
         --text-color-darkbg:hsl(0, 0, 100);
 
+        /* fonts */
+
         --ff-inter: "Inter";
         --ff-amoria: "Amoria";
+
+        /* font size */
+
+        --display-large:clamp(3.8rem, -0.825rem + 14.8vw, 7.5rem);
+        --display-medium:clamp(2.8rem, -0.325rem + 10vw, 5.3rem);
+        --heading-large:clamp(2.3rem, 1.3rem + 3.2vw, 3.1rem);
+        --heading-medium:clamp(1.25rem, -0.0625rem + 4.2vw, 2.3rem);
+        --heading-small:clamp(1.1rem, 0.6rem + 1.6vw, 1.5rem);
+        --body-medium:clamp(1.1rem, 0.9125rem + 0.6vw, 1.25rem);
+        --body-small:clamp(1rem, 0.875rem + 0.4vw, 1.1rem);
+
 
     }
 
@@ -54,55 +67,55 @@
 
     .display-large {
         font-family: var(--ff-amoria);
-        font-size: 120px;
+        font-size: var(--display-large);
     }
 
     .display-medium {
         font-family: var(--ff-amoria);
-        font-size: 85px;
+        font-size: var(--display-medium);
     }
 
     .header-large {
         font-family: var(--ff-inter);
-        font-size: 50px;
+        font-size: var(--heading-large);
         
     }
 
     .header-medium {
         font-family: var(--ff-inter);
         font-size: 38px;
-        font-weight: 400;
+        font-weight: var(--heading-medium);
     }
 
     .header-small {
         font-family: var(--ff-inter);
-        font-size: 24px;
+        font-size: var(--heading-small);
         font-weight: 400;
     }
 
     .body-medium {
         font-family: var(--ff-inter);
-        font-size: 20px;
+        font-size: var(--body-medium);
     }
 
     .body-small {
         font-family: var(--ff-inter);
-        font-size: 18px;
+        font-size: var(--body-small);
     }
 
     .label-medium {
         font-family: var(--ff-inter);
-        font-size: 18px;
+        font-size: var(--body-medium);
     }
 
     .label-small {
         font-family: var(--ff-inter);
-        font-size: 16px;
+        font-size: var(--body-small);
     }
 
     .quote {
         font-family: var(--ff-amoria);
-        font-size: 20px;
+        font-size: var(--body-medium);
         
     }
 
