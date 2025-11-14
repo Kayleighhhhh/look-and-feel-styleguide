@@ -131,6 +131,11 @@
         
     }
 
+    li {
+        list-style-type: "";
+        list-style-image: url(star-alt-3-svgrepo-com.svg);
+    }
+
     /* Formulier elementen */
 
 }
