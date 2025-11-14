@@ -45,6 +45,10 @@
     /* Schrijf hier de verschillende stijlen, die
        gedeeld gaan worden door jullie projecten */
 
+    body {
+        font-family: var(--ff-main);
+    }
+
     /* Kleuren */
     .primary-detail {
         background-color: var(--primary-detail-color);
@@ -85,40 +89,33 @@
     }
 
     .header-large {
-        font-family: var(--ff-main);
         font-size: var(--heading-large);
         
     }
 
     .header-medium {
-        font-family: var(--ff-main);
         font-size: 38px;
         font-weight: var(--heading-medium);
     }
 
     .header-small {
-        font-family: var(--ff-main);
         font-size: var(--heading-small);
         font-weight: 400;
     }
 
     .body-medium {
-        font-family: var(--ff-main);
         font-size: var(--body-medium);
     }
 
     .body-small {
-        font-family: var(--ff-main);
         font-size: var(--body-small);
     }
 
     .label-medium {
-        font-family: var(--ff-main);
         font-size: var(--body-medium);
     }
 
     .label-small {
-        font-family: var(--ff-main);
         font-size: var(--body-small);
     }
 
