@@ -17,10 +17,10 @@
 
     :root{
         /* colours */
-        --primary-detail: #002646;
-        --secondary-detail: #BF9A5D;
-        --third-detail: #8FB8C9;
-        --main-background: #FFFFFF;
+        --primary-detail: hsl(207, 100, 14);
+        --secondary-detail: hsl(37, 43, 56);
+        --third-detail: hsl(198, 35, 67);
+        --main-background: hsl(0, 0, 100);
 
         --ff-inter: "Inter";
         --ff-amoria: "Amoria";
