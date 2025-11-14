@@ -98,10 +98,10 @@
         font-size: 16px;
     }
 
-    .bold {
+    .quote {
         font-family: var(--ff-night-mango);
         font-size: 20px;
-        font-weight: bold;
+        
     }
 
     /* Formulier elementen */
