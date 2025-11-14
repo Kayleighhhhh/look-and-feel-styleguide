@@ -50,6 +50,15 @@
         border: 1px solid;
     }
 
+    .text-lightbg{
+        background-color: var(--text-color-lightbg);
+    }
+
+    .text-darkbg{
+        background-color: var(--text-color-darkbg);
+        border: 1px solid;
+    }
+
     /* Typografie */
 
     .display-large {
