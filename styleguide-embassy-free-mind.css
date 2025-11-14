@@ -4,8 +4,8 @@
 
 
 @font-face {
-  font-family: Night Mango;
-  src: url('Night\ Mango.ttf');
+  font-family: Amoria;
+  src: url('AMORIA.otf');
 }
 
 @font-face {
@@ -23,7 +23,7 @@
         --main-background: #FFFFFF;
 
         --ff-inter: "Inter";
-        --ff-night-mango: "Night Mango";
+        --ff-amoria: "Amoria";
 
     }
 
@@ -51,12 +51,12 @@
     /* Typografie */
 
     .display-large {
-        font-family: var(--ff-night-mango);
+        font-family: var(--ff-amoria);
         font-size: 120px;
     }
 
     .display-medium {
-        font-family: var(--ff-night-mango);
+        font-family: var(--ff-amoria);
         font-size: 85px;
     }
 
@@ -99,7 +99,7 @@
     }
 
     .quote {
-        font-family: var(--ff-night-mango);
+        font-family: var(--ff-amoria);
         font-size: 20px;
         
     }
