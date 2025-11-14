@@ -24,7 +24,6 @@
         --text-color-lightbg:hsl(208, 100%, 10%);
         --text-color-darkbg:hsl(0, 0%, 100%);
 
-<<<<<<< HEAD
         /* fonts */
 
         --ff-main: "Inter";
@@ -40,10 +39,6 @@
         --body-medium:clamp(1.1rem, 0.9125rem + 0.6vw, 1.25rem);
         --body-small:clamp(1rem, 0.875rem + 0.4vw, 1.1rem);
 
-=======
-        --ff-main: "Inter";
-        --ff-decorative: "Amoria";
->>>>>>> 2a0b3d440dbc85458b479b63f44ab25841b15304
 
     }
 
@@ -81,29 +76,17 @@
 
     .display-large {
         font-family: var(--ff-decorative);
-<<<<<<< HEAD
         font-size: var(--display-large);
-=======
-        font-size: 120px;
->>>>>>> 2a0b3d440dbc85458b479b63f44ab25841b15304
     }
 
     .display-medium {
         font-family: var(--ff-decorative);
-<<<<<<< HEAD
         font-size: var(--display-medium);
-=======
-        font-size: 85px;
->>>>>>> 2a0b3d440dbc85458b479b63f44ab25841b15304
     }
 
     .header-large {
         font-family: var(--ff-main);
-<<<<<<< HEAD
         font-size: var(--heading-large);
-=======
-        font-size: 50px;
->>>>>>> 2a0b3d440dbc85458b479b63f44ab25841b15304
         
     }
 
@@ -115,57 +98,33 @@
 
     .header-small {
         font-family: var(--ff-main);
-<<<<<<< HEAD
         font-size: var(--heading-small);
-=======
-        font-size: 24px;
->>>>>>> 2a0b3d440dbc85458b479b63f44ab25841b15304
         font-weight: 400;
     }
 
     .body-medium {
         font-family: var(--ff-main);
-<<<<<<< HEAD
         font-size: var(--body-medium);
-=======
-        font-size: 20px;
->>>>>>> 2a0b3d440dbc85458b479b63f44ab25841b15304
     }
 
     .body-small {
         font-family: var(--ff-main);
-<<<<<<< HEAD
         font-size: var(--body-small);
-=======
-        font-size: 18px;
->>>>>>> 2a0b3d440dbc85458b479b63f44ab25841b15304
     }
 
     .label-medium {
         font-family: var(--ff-main);
-<<<<<<< HEAD
         font-size: var(--body-medium);
-=======
-        font-size: 18px;
->>>>>>> 2a0b3d440dbc85458b479b63f44ab25841b15304
     }
 
     .label-small {
         font-family: var(--ff-main);
-<<<<<<< HEAD
         font-size: var(--body-small);
-=======
-        font-size: 16px;
->>>>>>> 2a0b3d440dbc85458b479b63f44ab25841b15304
     }
 
     .quote {
         font-family: var(--ff-decorative);
-<<<<<<< HEAD
         font-size: var(--body-medium);
-=======
-        font-size: 20px;
->>>>>>> 2a0b3d440dbc85458b479b63f44ab25841b15304
         
     }
 
