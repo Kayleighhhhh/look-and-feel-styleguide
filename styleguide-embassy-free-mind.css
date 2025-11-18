@@ -134,5 +134,35 @@
     }
 
     /* Formulier elementen */
+    button {
+        appearance: none;
+        background-color: var(--primary-detail-color);
+        color:var(--text-color-darkbg);
+        border:none;
+        border-radius: 2em;
+        padding:1em 3em 1em 1em;
+        width: fit-content;
+        background-image: url("arrow-up-right.svg");
+        background-size:1,5em;
+        background-repeat:no-repeat;
+        background-position: 8.6em .5em;
+        font-family: inherit;
+        font-size: var(--body-small);
+        
+        &:hover {
+            cursor:pointer;
+            background-color: var(--secondary-detail-color);
+            color: var(--text-color-lightbg);
+            background-image: url("arrow-up-right-black.svg");
+            background-size:1,5em;
+            background-repeat:no-repeat;
+            background-position: 8.6em .5em;
+            
+        }
 
+        &:active {
+            translate: 0 1px;
+        }
+
+    }
 }
