@@ -142,10 +142,16 @@
     .email {
         font-family: var(--ff-main);
         font-size: var(--body-small);
+        background-color: var(--primary-detail-color);
+        
 
         input {
             border:unset;
-            border-bottom: solid .2em var(--text-color-lightbg);
+            border-bottom: solid .2em var(--text-color-darkbg);
+        }
+
+        &::placeholder {
+            color: var(--text-color-darkbg);
         }
     }
 
@@ -154,6 +160,9 @@
     }
 
     .a-button {
+        text-decoration: none;
+        color: var(--text-color-darkbg);
+        background-color: var(--primary-detail-color);
 
     }
 
