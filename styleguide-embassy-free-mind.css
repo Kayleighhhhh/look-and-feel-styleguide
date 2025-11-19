@@ -134,7 +134,30 @@
     }
 
     /* Formulier elementen */
-    button {
+
+    .search {
+
+    }
+
+    .email {
+        font-family: var(--ff-main);
+        font-size: var(--body-small);
+
+        input {
+            border:unset;
+            border-bottom: solid .2em var(--text-color-lightbg);
+        }
+    }
+
+    .range {
+        accent-color: var(--primary-detail-color);
+    }
+
+    .a-button {
+
+    }
+
+    .button {
         appearance: none;
         background-color: var(--primary-detail-color);
         color:var(--text-color-darkbg);
