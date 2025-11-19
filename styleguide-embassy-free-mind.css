@@ -136,7 +136,14 @@
     /* Formulier elementen */
 
     .search {
+        font-family: var(--ff-main);
+        font-size: var(--body-small);
+        background-color: var(--primary-detail-color);
+        color:var(--text-color-darkbg);
 
+        &::placeholder {
+            color: var(--text-color-darkbg);
+        }
     }
 
     .email {
@@ -148,6 +155,7 @@
         input {
             border:unset;
             border-bottom: solid .2em var(--text-color-darkbg);
+            color:var(--text-color-darkbg);
         }
 
         &::placeholder {
@@ -159,10 +167,12 @@
         accent-color: var(--primary-detail-color);
     }
 
-    .a-button {
+    .nav-button {
         text-decoration: none;
         color: var(--text-color-darkbg);
-        background-color: var(--primary-detail-color);
+        background-color: var(--text-color-lightbg);
+        font-family: var(--ff-main);
+        font-size: var(--body-small);
 
     }
 
@@ -180,6 +190,7 @@
         background-position: 8.6em .5em;
         font-family: inherit;
         font-size: var(--body-small);
+        text-decoration: none;
         
         &:hover {
             cursor:pointer;
