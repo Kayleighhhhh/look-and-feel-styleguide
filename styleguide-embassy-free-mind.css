@@ -136,9 +136,21 @@
     /* Formulier elementen */
     .text{
         font-family: var(--ff-main);
-        font-size: var(--body-small);
-        
+        font-size: var(--heading-small);
+
         input{
+            font-family: var(--ff-main);
+            font-size: var(--body-small);
+            background-color: var(--primary-detail-color);
+            color: var(--text-color-darkbg);
+        }
+    }
+
+    .textarea{
+        font-family: var(--ff-main);
+        font-size: var(--heading-small);
+
+        textarea{
             font-family: var(--ff-main);
             font-size: var(--body-small);
             background-color: var(--primary-detail-color);
