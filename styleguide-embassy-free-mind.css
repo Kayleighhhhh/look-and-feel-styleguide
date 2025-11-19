@@ -144,6 +144,10 @@
         &::placeholder {
             color: var(--text-color-darkbg);
         }
+
+        &::-webkit-search-cancel-button {
+            appearance: none;
+        }
     }
 
     .email {
