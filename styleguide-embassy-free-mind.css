@@ -17,7 +17,7 @@
 
     :root{
         /* colours */
-        --primary-detail-color:hsl(207, 100%, 14%);
+        --primary-detail-color:#002646; /*heb deze naar hex verandered omdat de hsl net een andere kleur was dan het logo*/
         --secondary-detail-color:hsl(37, 43%, 56%);
         --third-detail-color:hsl(198, 35%, 67%);
         --main-background-color:hsl(0, 0%, 100%);
