@@ -94,8 +94,8 @@
     }
 
     .header-medium {
-        font-size: 38px;
-        font-weight: var(--heading-medium);
+        font-size: var(--heading-medium);
+        font-weight: 400;
     }
 
     .header-small {
